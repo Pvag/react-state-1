@@ -31,3 +31,46 @@ body {
     text-wrap: balance;
   }
 }
+
+.citofono {
+  margin: 10px;
+  border: 1px solid white;
+  padding: 8px;
+
+  button {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    box-shadow: rgb(255, 16, 16) 0px 4px 8px 1px;
+    margin: 8px;
+    padding: 2px 8px;
+  }
+}
+
+.citofoni {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 25px;
+
+  h1 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+
+    span {
+      font-style: italic;
+    }
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+}
+
+.global-counter {
+  margin-top: 38px;
+  border-top: 1px solid white;
+  padding: 12px;
+}
